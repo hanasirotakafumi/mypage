@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+  background-image:url("../img/umi2.jpg");
+  background-size:100%
+}
+
+
+#pagebody{
+  margin:0px auto;
+  width:1000px;
+}
+
+#nav{
+  margin:0;
+  overflow:hidden;
+  padding:0;
+}
+#nav > li {
+  background-color:red;
+  border:1px solid #300;
+  border-left:0px;
+  display:block;
+  float:left;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  width:245px;
+}
+#nav > li:first-child{
+  border-left:1px solid #300;
+}
+#nav > li:hover{
+  background-color:#DA0B20;
+}
+
+#nav > li > a{
+  color:#FFF;
+  display:block;
+  text-decoration:none;
+}
+
+.yacht1 {
+  margin-left:52.5px;
+  padding:0px;
+  float:left;
+  width:179px;
+  height:240px;
+}
+.yacht  {
+  padding:0px;
+  margin:0px;
+  float:left;
+  width:179px;
+  height:240px;
+  display:block;
+
+}
+#text {
+  padding:0px;
+  margin-left:52.5px;
+  width:895px;
+  height:205px;
+  float:left;
+}
+p{
+  font-size:20px;
+}

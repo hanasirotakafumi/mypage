@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+  background-image:url("../img/umi.jpg");
+  background-size:100%;
+}
+
+
+#pagebody{
+  margin:0px auto;
+  width:1000px;
+}
+
+#nav{
+  list-style-type:none;
+  margin:0;
+  overflow:hidden;
+  padding:0;
+}
+#nav > li {
+  background-color:#8BAFD8;
+  border:1px solid #300;
+  float:left;
+  border-left:0;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  width:245px;
+  display:block;
+
+}
+#nav > li:first-child{
+  border-left:1px solid #300;
+}
+
+#nav > li:hover{
+  background-color:#3AB0C5;
+}
+
+#nav > li > a{
+  color:#FFF;
+  display:block;
+  text-decoration:none;
+}
+
+#content > h1{
+  color:#4D14BF;
+}
+p{
+  font-size:20px;
+  font-weight:bold;
+}
+.text{
+  width:365px;
+  height:250px;
+  float:left;
+}
+.img2{
+  float:left;
+}
